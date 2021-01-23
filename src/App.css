@@ -1,10 +1,10 @@
-.App {
+.app {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-logo {
+  height: 50px;
+  animation: App-logo-spin infinite 20s linear;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,9 +13,9 @@
   }
 }
 
-.App-header {
+.app-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +24,29 @@
   color: white;
 }
 
-.App-link {
+.app-header-text {
+  font-size : 16px;
+}
+
+.app-shop {
+  padding : 1rem 1rem 3rem;
+}
+
+.app-products {
+  margin : 3rem auto 3.5rem;
+  max-width: 800px;
+  text-align: center;
+}
+
+@media(min-width: 800px){
+  .app-products{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+.app-link {
   color: #61dafb;
 }
 

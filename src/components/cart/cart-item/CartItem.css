@@ -1,0 +1,21 @@
+.cart-item{
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  text-align: left;
+}
+
+.cart-item-details{
+  display: flex;
+  width: 180px;
+}
+
+.cart-item-details div {
+  flex: 1 1 50%;
+}
+
+.cart-item-quantity{
+  padding: 0 1rem;
+}
+
